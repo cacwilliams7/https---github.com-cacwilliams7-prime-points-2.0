@@ -1,0 +1,26 @@
+<div class="footer">
+    <div class="row">
+      <div class=" bdglist col-md-2  my-1" *ngFor="let bdg of badges">
+              <img routerLink="/badge-item" [src]="bdg.imagePath" width=75% height=75% style="cursor: pointer;" (click)="openBadge(bdg)">
+        </div>
+    </div>
+  </div>
+
+<!-- <a
+href="#" 
+class="list-group-item clearfix" 
+*ngFor = "let bdg of badges" >
+            <div class="row">
+                <div class="col">
+                    <h4 class="list-group-item-heading">{{bdg.name}}</h4>
+                    <p class="list-group-item-text">{{bdg.description}}</p>
+                </div>
+                <span class="pull-right">
+                    <img 
+                    [src] = "bdg.imagePath" 
+                    alt="{{bdg.name}}" 
+                    class="img-responsive" style="max-height: 50px;">
+                </span>
+                </div>
+
+        </a> -->
