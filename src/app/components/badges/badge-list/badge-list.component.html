@@ -1,10 +1,13 @@
-<div class="footer">
-    <div class="row">
-      <div class=" bdglist col-md-2  my-1" *ngFor="let bdg of badges">
-              <img routerLink="/badge-item" [src]="bdg.imagePath" width=75% height=75% style="cursor: pointer;" (click)="openBadge(bdg)">
+<body style="background-color: transparent;" >
+    <div class="footer">
+        <div class="row">
+          <div class=" bdglist col-md-2  my-1" *ngFor="let bdg of badges">
+                  <img routerLink="/badge-item" [src]="bdg.imagePath" width=75% height=75% style="cursor: pointer;" (click)="openBadge(bdg)">
+            </div>
         </div>
-    </div>
-  </div>
+      </div> 
+</body>
+
 
 <!-- <a
 href="#" 

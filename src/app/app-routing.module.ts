@@ -10,7 +10,7 @@ const routes: Routes = [
   {path: 'rewards', component: RewardsComponent},
   {path: 'friends', component: FriendsComponent},
   {path: 'benefits', component: BadgesComponent},
-  {path: 'badge-item', component: BadgeItemComponent}
+  {path: 'badge-item', component: BadgeItemComponent},
 
 ];
 
