@@ -10,6 +10,8 @@ import { FriendsComponent } from './components/friends/friends.component';
 import { RewardsComponent } from './components/rewards/rewards.component';
 import { BadgeListComponent } from './components/badges/badge-list/badge-list.component';
 import { BadgeItemComponent } from './components/badges/badge-item/badge-item.component';
+import { BadgeItem2Component } from './components/badges/badge-item2/badge-item2.component';
+import { BadgeItem3Component } from './components/badges/badge-item3/badge-item3.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { BadgeItemComponent } from './components/badges/badge-item/badge-item.co
     FriendsComponent,
     RewardsComponent,
     BadgeListComponent,
-    BadgeItemComponent
+    BadgeItemComponent,
+    BadgeItem2Component,
+    BadgeItem3Component
   ],
   imports: [
     BrowserModule,
